@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/create", (req, res) => {
-    res.render("index"); // Make sure you have a 'create.ejs' file in your views folder
+    res.render("index"); 
 });
 
 app.get("/read", async (req, res) => {
